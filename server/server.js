@@ -12,7 +12,7 @@ const port = 8000;
 app.use(cors());
 app.use(express.json());
 
-const apiKey = AIzaSyAKkQVDBjXJzO5wSHJPSeVR_rzop7No6QA;
+const apiKey = 'AIzaSyAKkQVDBjXJzO5wSHJPSeVR_rzop7No6QA';
 const genAI = new GoogleGenerativeAI(apiKey);
 
 const model = genAI.getGenerativeModel({
